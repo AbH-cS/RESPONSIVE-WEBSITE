@@ -175,6 +175,10 @@
          overflow-x: hidden;
      }
 
+     .header{
+         position: relative;
+     }
+
      nav ul {
          position: absolute;
          width: 100%;
@@ -228,6 +232,7 @@
      }
 
      .header-content {
+         width: 100%;
          position: absolute;
          bottom: 0;
          padding: 0 10%;
