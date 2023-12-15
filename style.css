@@ -175,10 +175,6 @@
          overflow-x: hidden;
      }
 
-     .header{
-         position: relative;
-     }
-
      nav ul {
          position: absolute;
          width: 100%;
@@ -218,9 +214,10 @@
  /*-------------------- Media Queries for header content  -------------------- */
 
  @media only screen and (max-width :600px) {
-     .header {
+     .header{
          min-height: auto;
-         padding: 0;
+         padding: 0;    
+         position: relative;
      }
 
      .user-img {
